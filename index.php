@@ -1,6 +1,7 @@
 <?php
 $b = 0;
-$a = -6.464645;
+$a = rand(-25, 30);
+
 //echo round ($a);
 if ($a > $b) {
     echo "<span style = \" color: red;\">Тепло!</span>";
