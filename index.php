@@ -1,14 +1,12 @@
 <?php
-/* a * x + b = 0
-x = -b / a
- */
-
-$a = 2;
-$b = 5;
-
-if ($a != 0) {
-    $x = -$b / $a;
-    echo "<span style = \" color: blue;\">Корень рівняння:</span>" . $x;
+$b = 0;
+$a = 6.464645;
+//echo round ($a);
+if ($a > $b) {
+    echo "Тепло!";
+} elseif ($a == $b) {
+    echo "Не мороз и не тепло…";
 } else {
-    echo "Помилка";
+    echo "Мороз!";
 }
+?>
